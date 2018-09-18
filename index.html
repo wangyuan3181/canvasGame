@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>--守卫地球--</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="js/game.js"></script>
+</head>
+
+<body>
+	<canvas id="canvas"></canvas>
+
+	<audio id="fire-sound">
+		<source src="./music/one.mp3">
+	</audio>
+	<audio id="explosion-sound">
+		<source src="./music/two.mp3">
+	</audio>
+
+	<script>
+		//雪碧图的加载
+		var sprite = new Image();
+		var spriteBoom = new Image();
+		sprite.src = 'img/sprite.png'; //地球 大炮 子弹 
+		window.onload = function () {
+			spriteBoom.src = 'img/explosion.png'; //爆炸特效
+		}
+		//监听，冒泡
+		//DOMContentLoaded 事件触发时，仅当DOM加载完成，不包括样式表，图片
+		window.addEventListener("DOMContentLoaded", game);
+	</script>
+</body>
+
+</html>

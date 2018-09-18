@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "registry:npm/express#4.14.0+20170217205433",
+    "mongodb": "registry:dt/mongodb#2.1.0+20170212052546",
+    "mysql": "registry:dt/mysql#0.0.0+20170113202751",
+    "python-shell": "registry:dt/python-shell#0.4.0+20161225004033",
+    "react": "registry:dt/react#15.0.0+20170324160437",
+    "react-native": "registry:dt/react-native#0.42.0+20170324170601",
+    "webpack": "registry:dt/webpack#2.2.0+20170320160659"
+  },
+  "globalDependencies": {
+    "canvasjs": "registry:dt/canvasjs#1.5.1+20161128184045",
+    "es6-collections": "registry:dt/es6-collections#0.5.1+20160510002910",
+    "es6-promise": "registry:dt/es6-promise#0.0.0+20160726191732",
+    "jquery-ajax-chain": "registry:dt/jquery-ajax-chain#1.0.4+20160510010627",
+    "jquery.sortelements": "registry:dt/jquery.sortelements#0.0.0+20160819211420",
+    "less": "registry:dt/less#0.0.0+20161212190028",
+    "swiper": "registry:dt/swiper#3.4.0+20170120190008",
+    "underscore": "registry:dt/underscore#1.8.3+20161123125004",
+    "zepto": "registry:dt/zepto#1.0.0+20161229235626"
+  }
+}

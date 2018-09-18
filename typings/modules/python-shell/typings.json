@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/4ccd1312faa4cb862a5e6b314db3fb5a3d581033/python-shell/index.d.ts",
+    "raw": "registry:dt/python-shell#0.4.0+20161225004033",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/4ccd1312faa4cb862a5e6b314db3fb5a3d581033/python-shell/index.d.ts"
+  }
+}
